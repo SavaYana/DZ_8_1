@@ -1,0 +1,41 @@
+.container {
+    max-width:1500px;
+    width:95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: #ff9800;
+    padding: 15px;
+}
+
+main {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+}
+
+main div  {
+    width: 30%;       
+}
+
+main img {
+    max-width: 960px;
+    width:100%;
+}
+
+@media (max-width:960px) {
+    main  {
+        display: block;
+        text-align: center;
+    }
+    main div  {
+        width: 100%;
+    }
+
+    main img {
+        width:45%;
+    }
+
+}
